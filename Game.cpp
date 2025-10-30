@@ -83,13 +83,17 @@ void Game::processEvents()
 void Game::update(sf::Time deltaTime)
 {
     sf::Vector2f movement(0.f, 0.f);
-    if (mIsMovingUp)
+    // moving up
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
         movement.y -= playerSpeed;
-    if (mIsMovingDown)
+    // moving down
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
         movement.y += playerSpeed;
-    if (mIsMovingLeft)
+    // moving left
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
         movement.x -= playerSpeed;
-    if (mIsMovingRight)
+    // moving right
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
         movement.x += playerSpeed;
 
     // spaceShip.move(movement * deltaTime.asSeconds());

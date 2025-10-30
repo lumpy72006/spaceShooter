@@ -7,13 +7,13 @@
 class Game
 {
 public:
-    Game();
-    void run();
+                        Game();
+    void                run();
 
 private:
     void                processEvents();
     void                update(sf::Time deltaTime);
-    void                 render();
+    void                render();
     void                handlePlayerInput(sf::Keyboard::Key key, bool isPressed);
     void                updateStatistics(sf::Time elapsedTime);
 
