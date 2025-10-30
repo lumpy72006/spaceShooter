@@ -1,0 +1,3 @@
+/home/lumpy/game-dev/build/CMakeFiles/game.dir
+/home/lumpy/game-dev/build/CMakeFiles/edit_cache.dir
+/home/lumpy/game-dev/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/lumpy/game-dev/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
